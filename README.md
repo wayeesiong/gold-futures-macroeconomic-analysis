@@ -227,3 +227,50 @@ gold-futures-macroeconomic-analysis/
 └── report/
     ├── README.md
     └── gold-futures-macroeconomic-analysis.pdf
+```
+
+---
+
+## Tools & Techniques
+
+### Software
+
+- EViews
+- Microsoft Excel
+
+### Econometric Techniques
+
+- Ordinary Least Squares
+- Correlation Analysis
+- Variance Inflation Factor
+- Breusch-Pagan-Godfrey Test
+- White Test
+- Durbin-Watson Test
+- Breusch-Godfrey LM Test
+- HAC / Newey-West Standard Errors
+- Lagged Dependent-Variable Modelling
+- AIC / HQC Model Selection
+
+---
+
+## Project Files
+
+### 📄 Full Academic Report
+
+[**View Full Academic Report →**](report/gold-futures-macroeconomic-analysis.pdf)
+
+### 📊 Dataset
+
+[**View Project Dataset →**](data/gold-futures-macro-data.xlsx)
+
+### 📈 EViews Analysis
+
+[**View EViews Analysis Workfile →**](analysis/gold-futures-analysis.wf1)
+
+---
+
+## About
+
+This project was completed as an academic financial econometrics study examining the relationship between macroeconomic conditions and U.S. gold futures prices.
+
+The repository provides supporting evidence of the data, econometric methodology and analytical process behind the project.
