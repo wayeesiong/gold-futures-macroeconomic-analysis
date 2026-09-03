@@ -257,16 +257,15 @@ gold-futures-macroeconomic-analysis/
 
 ### 📄 Full Academic Report
 
-[**View Full Academic Report →**](report/gold-futures-macroeconomic-analysis.pdf)
+[**View Full Academic Report →**](https://github.com/wayeesiong/gold-futures-macroeconomic-analysis/blob/main/report/gold-futures-macroeconomic-analysis.pdf)
 
 ### 📊 Dataset
 
-[**View Project Dataset →**](data/gold-futures-macro-data.xlsx)
+[**View Project Dataset →**](https://github.com/wayeesiong/gold-futures-macroeconomic-analysis/blob/main/data/gold-futures-macro-data.xlsx)
 
 ### 📈 EViews Analysis
 
-[**View EViews Analysis Workfile →**](analysis/gold-futures-analysis.wf1)
-
+[**View EViews Analysis Workfile →**](https://github.com/wayeesiong/gold-futures-macroeconomic-analysis/blob/main/analysis/gold-futures-analysis.wf1)
 ---
 
 ## About
