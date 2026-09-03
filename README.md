@@ -200,12 +200,67 @@ A USD 1 increase in the previous month's gold futures price is associated with a
 The U.S. Dollar Index is significant only at the 10% level in the final specification, while CPI is statistically insignificant.
 
 ---
+---
+
+## Limitations & Interpretation
+
+Although the final lagged HAC specification substantially improved residual diagnostics and in-sample model fit, several limitations should be considered when interpreting the results.
+
+### 1. Stationarity and Spurious Regression Risk
+
+The analysis did not formally test the time-series variables for unit roots or stationarity using tests such as the Augmented Dickey-Fuller (ADF) or Phillips-Perron test.
+
+Because variables such as gold futures prices, money supply and industrial production may exhibit strong time trends, regressions using their levels may be vulnerable to spurious relationships if the variables are non-stationary and not cointegrated.
+
+Therefore, the high R² of the final model should not by itself be interpreted as evidence of a strong underlying economic relationship.
+
+### 2. Cointegration Was Not Tested
+
+The study did not formally test whether non-stationary variables share a stable long-run equilibrium relationship.
+
+If relevant variables are integrated of order one, further cointegration testing would be required before interpreting the estimated level relationships as robust long-run relationships.
+
+Depending on the integration properties of the variables, approaches such as an ARDL / Error Correction Model may provide a more appropriate framework for distinguishing short-run and long-run effects.
+
+### 3. High In-Sample R²
+
+The preferred model produces an R² of approximately 0.967.
+
+However, the model includes the previous month's gold futures price, GF(-1), which is highly significant. Because financial price levels can display substantial persistence, the lagged dependent variable naturally explains a large proportion of current price variation.
+
+The high R² therefore should not be interpreted as evidence of exceptional forecasting accuracy.
+
+### 4. HAC Does Not Address Non-Stationarity
+
+HAC / Newey-West standard errors improve statistical inference when heteroscedasticity and autocorrelation are present.
+
+However, HAC standard errors do not resolve potential non-stationarity or spurious regression problems. These issues require separate time-series testing and model specification.
+
+### 5. Association Rather Than Causation
+
+The regression results should be interpreted as statistical associations rather than definitive causal relationships.
+
+For example, a significant coefficient on money supply indicates that money supply is associated with gold futures prices within the estimated model, but it does not establish that changes in money supply directly cause changes in gold futures prices.
+
+### 6. In-Sample Analysis
+
+Model selection and evaluation were primarily conducted using in-sample diagnostics and information criteria.
+
+No dedicated out-of-sample forecasting exercise, rolling-window validation or holdout sample was used. Therefore, the results should not be interpreted as evidence of validated out-of-sample predictive performance.
+
+### Overall Interpretation
+
+The lagged HAC specification substantially reduced residual autocorrelation and improved model fit compared with the initial OLS specification. However, because unit-root and cointegration testing were not conducted, the possibility of spurious level relationships cannot be ruled out.
+
+The findings should therefore be interpreted primarily as **in-sample statistical associations**, rather than definitive causal, long-run or forecasting relationships.
 
 ## Key Takeaway
 
-The results suggest that gold futures prices are influenced not only by contemporary macroeconomic conditions but also strongly by their own recent price behaviour.
+The results suggest that gold futures prices are associated with both contemporary macroeconomic conditions and their own recent price behaviour.
 
-After accounting for model diagnostics, **money supply, interest rates, industrial production and the previous month's gold futures price remain statistically significant determinants of gold futures prices**.
+Within the preferred specification, **money supply, interest rates, industrial production and the previous month's gold futures price display statistically significant relationships with current gold futures prices**.
+
+However, these results should be interpreted alongside the methodological limitations discussed above, particularly the absence of formal stationarity and cointegration testing.
 
 ---
 
